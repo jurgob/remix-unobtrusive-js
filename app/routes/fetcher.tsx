@@ -93,7 +93,7 @@ export default function Fetcher() {
             <h1>Fetcher/Navigation</h1>
             <h2>Loader data</h2>
             <div>
-                {data 
+                {loaderData 
                     ? <pre className="bg-gray-100 p-6 inline-block" >
                         {JSON.stringify(loaderData, null, 2)}</pre>
                     : <div>No Data</div>
